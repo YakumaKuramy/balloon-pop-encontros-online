@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://ba10lstk6ee2r"]
+[gd_scene load_steps=3 format=3 uid="uid://ba10lstk6ee2r"]
+
+[ext_resource type="Script" uid="uid://ca118jbnjfbec" path="res://intro_game.gd" id="1_pfcy2"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_vkr2g"]
 line_spacing = -25.0
@@ -11,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_pfcy2")
 
 [node name="background_color" type="ColorRect" parent="."]
 layout_mode = 1
